@@ -11,6 +11,6 @@ public class HelloW {
 
     @GetMapping("/")
     public String boost(HttpServletRequest request){ // Request is used to get the session id
-        return "Hi Vaibhav Shinde" + request.getSession().getId(); // this will return the session id
+        return "Hi Vaibhav Shinde " + request.getSession().getId(); // this will return the session id
     }
 }
