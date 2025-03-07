@@ -1,4 +1,4 @@
-package com.telusko.springSrecurity.HelloController;
+package com.telusko.springSrecurity.Model;
 
 public class Student {
     private int id;

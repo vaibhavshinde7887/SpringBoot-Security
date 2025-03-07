@@ -1,6 +1,7 @@
-package com.telusko.springSrecurity.HelloController;
+package com.telusko.springSrecurity.Controller;
 
 
+import com.telusko.springSrecurity.Model.Student;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.GetMapping;

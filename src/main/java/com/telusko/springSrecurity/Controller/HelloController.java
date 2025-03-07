@@ -1,11 +1,11 @@
-package com.telusko.springSrecurity.HelloController;
+package com.telusko.springSrecurity.Controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloW {
+public class HelloController {
 
 
 
