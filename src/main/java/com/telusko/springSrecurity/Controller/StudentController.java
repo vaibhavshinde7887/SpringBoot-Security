@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 public class StudentController {
-    private List<Student> students = new ArrayList<>(
+    private List<Student> students = new ArrayList<>( // adding the students to the list manually
             List.of(
                     new Student(1, "Navin", 60),
                     new Student(2, "Kiran", 65)

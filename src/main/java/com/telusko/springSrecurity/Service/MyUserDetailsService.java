@@ -16,7 +16,7 @@ public class MyUserDetailsService implements UserDetailsService{ // we use this 
 
 
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException { // This method is used to load the user by the username and if the user is not found then it will throw the exception
+    public UserDetails loadUserByUsername (String username) throws UsernameNotFoundException { // This method is used to load the user by the username and if the user is not found then it will throw the exception
         Users user = userRepo.findByUsername(username);
         if (user == null) {
             System.out.println("User Not Found");
